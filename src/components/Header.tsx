@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from './Logo'
 import DarkModeToggle from './ui/DarkModeToggle'
+import UserButton from './ui/UserButton'
 
 
 const Header = () => {
@@ -14,6 +15,7 @@ const Header = () => {
                 {/* section and(....) */}
                 <DarkModeToggle/>
                 {/* UserButton */}
+                <UserButton/>
             </div>
         </nav>
         {/* uprage banner */}
