@@ -7,12 +7,13 @@ import {
     DropdownMenuSeparator,
     DropdownMenuTrigger,
   } from "@/components/ui/dropdown-menu"
+import UserAvater from './UserAvater'
   
 
 const UserButton = () => {
   return (
     <DropdownMenu>
-  <DropdownMenuTrigger>Open</DropdownMenuTrigger>
+  <DropdownMenuTrigger><UserAvater name='Naim' image="https://github.com/shadcn.png" className={''}/></DropdownMenuTrigger>
   <DropdownMenuContent>
     <DropdownMenuLabel>My Account</DropdownMenuLabel>
     <DropdownMenuSeparator />
