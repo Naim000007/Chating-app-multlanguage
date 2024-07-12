@@ -10,7 +10,7 @@ import { MessagesSquareIcon } from 'lucide-react'
 
 const Header = async () => {
     const session = await getServerSession(authOptions)
-    // console.log(session);
+    console.log(session);
     
   return (
     <header className='sticky top-0 z-50 bg-white dark:bg-gray-900'>
@@ -34,7 +34,7 @@ const Header = async () => {
                 }
                 <DarkModeToggle/>
                 {/* UserButton */}
-                <UserButton/>
+                <UserButton session={session}/>
             </div>
         </nav>
         {/* uprage banner */}
