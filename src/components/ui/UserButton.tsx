@@ -11,6 +11,8 @@ import UserAvater from './UserAvater'
   
 
 const UserButton = () => {
+    //session....
+    
   return (
     <DropdownMenu>
   <DropdownMenuTrigger><UserAvater name='Naim' image="https://github.com/shadcn.png" className={''}/></DropdownMenuTrigger>
